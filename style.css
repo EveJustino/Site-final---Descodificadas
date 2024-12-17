@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* PÁGINA 1 - INÍCIO - MENU DE NAVEGAÇÃO*/
+header{
+    box-shadow: 0 3px 10px #24252a;
+    margin-bottom: 10px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+}
+
+.paginas {
+    display: flex;
+    align-items: center;
+}
+
+.paginas ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.paginas li {
+    margin: 0 15px;
+}
+
+.paginas a {
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: black;
+}
+
+/*BANNER, TITULO E SINOPSE*/
+.banner {
+    position: relative;
+    opacity: 90%;
+}
+
+.nomeColetivo {
+    position: absolute;
+    bottom: 400px;
+    margin-left: 25% ;
+    font-size: 3rem;
+    color:darkslateblue;
+    opacity: 90%;
+    text-shadow: 1px 5px 8px white;
+}
+
+.sinopse {
+    display: flex;
+    padding: 20px 50px;
+    font-size: 1.3rem;
+    background-color:rgba(196, 173, 250, 0.877);
+    border-radius: 0 0 40px 40px;
+}
+
+.rodapeInicio{
+    margin-top: 20vh;
+    margin-bottom: 2vh;
+    text-align: center;
+    opacity: 60%;
+}
+
+/*PÁGINA 2*/
+.sobre {
+    height: 85vh;
+    width: 38vw;
+    text-align: justify;
+    margin-left: 5vw;
+    margin-top: 11vh;
+    color: #24252a;
+    position: absolute;
+
+}
+
+.historico {
+    font-size: 1.3rem;
+    display: flex;
+}
+
+.album {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 50%;
+    margin-left: 45vw;
+    margin-top: 17vh;
+    position: absolute;
+}
+
+.fotosAlbum{
+    width: 320px;
+    height: 240px;
+    box-shadow: 5px 5px 5px 2px #24252a;
+    transition: transform .5s linear;
+}
+
+.fotosAlbum:hover {
+    transform: scale(1.2);
+}
+
+.fotosAlbum img {
+    width: 320px;
+    height: 240px;
+    border: 5px solid white;
+}
+
+.mapa {
+    position: absolute;
+    margin-top: 100vh;
+    margin-left: 25vw;
+    
+}
+
+.video {
+    position: absolute;
+    margin-top: 100vh;
+    margin-left: 50vw;
+}
+
+.rodapeSobre {
+    margin-top: 150vh;
+    margin-bottom: 2vh;
+    text-align: center;
+    opacity: 60%;
+}
+
+/* PÁGINA 3*/
+form{
+    width: 30rem;
+    height: 15rem;
+    text-align: center;
+    margin: 5rem 450px;
+    padding-top: 20px;
+}
+
+.formNome{
+    margin-top: 25px;
+    background-color: rgb(189, 197, 197);
+    border-radius: 10px 10px ;
+    width: 300px;
+    height: 50px;
+    margin-left: 90px;
+    align-content: space-around;
+}
+
+
+input {
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.enviar{
+    font-size: 20px;
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+}
+.enviar:hover{
+    background-color: rgb(219, 75, 248);
+    color: white;
+
+}
+
+.rodapeContato{
+    margin-top: 50vh;
+    margin-bottom: 5vh;
+    text-align: center;
+    opacity: 60%;
+}
